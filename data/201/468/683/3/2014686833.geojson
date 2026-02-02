@@ -1,0 +1,78 @@
+{
+  "id": 2014686833,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-02-01",
+    "date:inception_upper": "2026-02-01",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-02-01",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AA",
+    "flysfo:base_airline": "",
+    "flysfo:base_flight_number": "4138",
+    "flysfo:date": "2026-02-01",
+    "flysfo:estimated_timestamp": 1769982600,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AA2651",
+    "flysfo:gate": "",
+    "flysfo:journey": "CLT-SFO",
+    "flysfo:scheduled_timestamp": 1769982600,
+    "flysfo:timestamp": 1769982600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,35.220744,-80.942777,37.617990",
+    "geom:latitude": 36.419367,
+    "geom:longitude": -101.65686,
+    "iata:airline": "AA",
+    "iata:base_airline": "",
+    "icao:airline": "AAL",
+    "icao:base_airline": "QFA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283849,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:base_flight_id": "20260201-A-QFA-4138",
+    "sfomuseum:departure_id": 102528659,
+    "sfomuseum:flight_id": "20260201-A-AAL-2651",
+    "sfomuseum:flight_number": [
+      "AAL2651",
+      "AA2651"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1770048053,
+    "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2014686833,
+        "flight_id": 2014686833
+      }
+    ],
+    "wof:id": 2014686833,
+    "wof:involves": [
+      102527513,
+      102528659,
+      1159283849,
+      -1,
+      1159285043
+    ],
+    "wof:lastmodified": 1770048053,
+    "wof:name": "AA2651 (CLT-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    35.220744,
+    -80.942777,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-80.942777,35.220744],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

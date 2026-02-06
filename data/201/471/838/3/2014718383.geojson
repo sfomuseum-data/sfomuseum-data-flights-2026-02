@@ -1,0 +1,72 @@
+{
+  "id": 2014718383,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-02-05",
+    "date:inception_upper": "2026-02-05",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-02-05",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "KL",
+    "flysfo:date": "2026-02-05",
+    "flysfo:estimated_timestamp": 1770320220,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "KL373",
+    "flysfo:gate": "",
+    "flysfo:journey": "AMS-SFO",
+    "flysfo:scheduled_timestamp": 1770320820,
+    "flysfo:timestamp": 1770320820,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,4.782907,52.314791",
+    "geom:latitude": 44.9663905,
+    "geom:longitude": -58.794018,
+    "iata:airline": "KL",
+    "icao:airline": "KLM",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284613,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102542801,
+    "sfomuseum:flight_id": "20260205-A-KLM-373",
+    "sfomuseum:flight_number": [
+      "KLM373",
+      "KL373"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1770393944,
+    "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2014718383,
+        "flight_id": 2014718383
+      }
+    ],
+    "wof:id": 2014718383,
+    "wof:involves": [
+      102527513,
+      102542801,
+      1159284613,
+      -1
+    ],
+    "wof:lastmodified": 1770393944,
+    "wof:name": "KL373 (AMS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    4.782907,
+    52.314791
+  ],
+  "geometry": {"coordinates":[[4.782907,52.314791],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

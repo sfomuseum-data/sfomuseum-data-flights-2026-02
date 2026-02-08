@@ -2,10 +2,12 @@
   "id": 2014732437,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-07",
-    "date:inception_upper": "2026-02-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-07",
+    "date:cessation_lower": "2026-02-07",
+    "date:cessation_upper": "2026-02-07",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2026-02-07T08:51:36-08:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2026-02-07",
@@ -21,6 +23,7 @@
     "geom:latitude": 33.089972,
     "geom:longitude": -22.636412999999997,
     "iata:airline": "AI",
+    "icao:aircraft": "PA30",
     "icao:airline": "AIC",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
@@ -34,6 +37,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "VTALU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,7 +95,7 @@
       1159283649,
       1947304087
     ],
-    "wof:lastmodified": 1770566546,
+    "wof:lastmodified": 1770567360,
     "wof:name": "AI173 (DEL-SFO)",
     "wof:parent_id": 1947304087,
     "wof:placetype": "custom",

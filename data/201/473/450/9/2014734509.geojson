@@ -1,0 +1,72 @@
+{
+  "id": 2014734509,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-02-07",
+    "date:inception_upper": "2026-02-07",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-02-07",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "LX",
+    "flysfo:date": "2026-02-07",
+    "flysfo:estimated_timestamp": 1770510600,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "LX35",
+    "flysfo:gate": "",
+    "flysfo:journey": "ZRH-SFO",
+    "flysfo:scheduled_timestamp": 1770510480,
+    "flysfo:timestamp": 1770510600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,8.559692,47.455793",
+    "geom:latitude": 42.536891499999996,
+    "geom:longitude": -56.9056255,
+    "iata:airline": "LX",
+    "icao:airline": "SWR",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159286475,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102553957,
+    "sfomuseum:flight_id": "20260207-A-SWR-35",
+    "sfomuseum:flight_number": [
+      "SWR35",
+      "LX35"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1770566793,
+    "wof:geomhash": "59c1b41e582a5fde12da38b49a2c462f",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2014734509,
+        "flight_id": 2014734509
+      }
+    ],
+    "wof:id": 2014734509,
+    "wof:involves": [
+      102527513,
+      102553957,
+      1159286475,
+      -1
+    ],
+    "wof:lastmodified": 1770566793,
+    "wof:name": "LX35 (ZRH-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    8.559692,
+    47.455793
+  ],
+  "geometry": {"coordinates":[[8.559692,47.455793],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

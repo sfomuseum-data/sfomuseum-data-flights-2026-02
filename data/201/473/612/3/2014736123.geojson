@@ -1,0 +1,72 @@
+{
+  "id": 2014736123,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-02-07",
+    "date:inception_upper": "2026-02-07",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-02-07",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AI",
+    "flysfo:date": "2026-02-07",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AI180",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-VIE",
+    "flysfo:scheduled_timestamp": 1770510600,
+    "flysfo:timestamp": 1770510600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,16.566135,48.115990",
+    "geom:latitude": 42.86699,
+    "geom:longitude": -52.902404,
+    "iata:airline": "AI",
+    "icao:airline": "AIC",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283649,
+    "sfomuseum:arrival_id": 102556267,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260207-D-AIC-180",
+    "sfomuseum:flight_number": [
+      "AIC180",
+      "AI180"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1770566981,
+    "wof:geomhash": "3e1bb342c91e9080c91d10fb988981a4",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2014736123,
+        "flight_id": 2014736123
+      }
+    ],
+    "wof:id": 2014736123,
+    "wof:involves": [
+      102556267,
+      102527513,
+      1159283649,
+      -1
+    ],
+    "wof:lastmodified": 1770566981,
+    "wof:name": "AI180 (SFO-VIE)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    16.566135,
+    48.11599
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[16.566135,48.11599]],"type":"MultiPoint"}
+}

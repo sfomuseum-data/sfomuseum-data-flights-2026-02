@@ -1,0 +1,72 @@
+{
+  "id": 2014763317,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-02-11",
+    "date:inception_upper": "2026-02-11",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-02-11",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2026-02-11",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AS791",
+    "flysfo:gate": "",
+    "flysfo:journey": "LIH-SFO",
+    "flysfo:scheduled_timestamp": 1770797280,
+    "flysfo:timestamp": 1770797280,
+    "geom:area": 0,
+    "geom:bbox": "-159.347789,21.981539,-122.370943,37.617990",
+    "geom:latitude": 29.799764500000002,
+    "geom:longitude": -140.859366,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102528943,
+    "sfomuseum:flight_id": "20260211-A-ASA-791",
+    "sfomuseum:flight_number": [
+      "ASA791",
+      "AS791"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1770912222,
+    "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2014763317,
+        "flight_id": 2014763317
+      }
+    ],
+    "wof:id": 2014763317,
+    "wof:involves": [
+      102527513,
+      102528943,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1770912222,
+    "wof:name": "AS791 (LIH-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -159.347789,
+    21.981539,
+    -122.370943,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-159.347789,21.981539],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

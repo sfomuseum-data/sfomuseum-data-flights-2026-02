@@ -2,10 +2,12 @@
   "id": 2014771051,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-12",
-    "date:inception_upper": "2026-02-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-12",
+    "date:cessation_lower": "2026-02-12",
+    "date:cessation_upper": "2026-02-12",
+    "date:inception_lower": "2026-02-13",
+    "date:inception_upper": "2026-02-13",
+    "edtf:cessation": "2026-02-12T12:49:40-08:00",
+    "edtf:inception": "2026-02-13T03:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260212-A-AFR-2266",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N886DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL1129662U"
+    },
     "wof:country": "US",
     "wof:created": 1770998694,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014771051,
     "wof:involves": [
+      1377564285,
       102527513,
       102533795,
       1159284261,
       1947304681,
       1159283627
     ],
-    "wof:lastmodified": 1770998694,
+    "wof:lastmodified": 1770999476,
     "wof:name": "DL1559 (LAX-SFO)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

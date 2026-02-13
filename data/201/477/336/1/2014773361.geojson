@@ -2,10 +2,12 @@
   "id": 2014773361,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-13",
+    "date:cessation_upper": "2026-02-13",
     "date:inception_lower": "2026-02-12",
     "date:inception_upper": "2026-02-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-12",
+    "edtf:cessation": "2026-02-13T00:29:00Z",
+    "edtf:inception": "2026-02-12T19:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-02-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N310RF",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139206808",
+      "swim:gufi": "KO669285xh"
+    },
     "wof:country": "US",
     "wof:created": 1770998970,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -86,9 +99,10 @@
       102529403,
       102527513,
       1159283849,
-      1947304317
+      1947304317,
+      1528104575
     ],
-    "wof:lastmodified": 1770998970,
+    "wof:lastmodified": 1770999478,
     "wof:name": "AA1732 (SFO-PHL)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

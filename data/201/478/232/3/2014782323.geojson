@@ -2,10 +2,12 @@
   "id": 2014782323,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-13",
+    "date:cessation_upper": "2026-02-13",
     "date:inception_lower": "2026-02-13",
     "date:inception_upper": "2026-02-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-13",
+    "edtf:cessation": "2026-02-13T12:32:45-08:00",
+    "edtf:inception": "2026-02-13T23:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260213-A-ACA-3898",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17359",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139317506"
+    },
     "wof:country": "US",
     "wof:created": 1771085299,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -92,9 +105,10 @@
       102555091,
       1159285413,
       1930457221,
-      1159283597
+      1159283597,
+      1528104575
     ],
-    "wof:lastmodified": 1771085299,
+    "wof:lastmodified": 1771085909,
     "wof:name": "UA2462 (YYZ-SFO)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014786321,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-13",
-    "date:inception_upper": "2026-02-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-13",
+    "date:cessation_lower": "2026-02-14",
+    "date:cessation_upper": "2026-02-14",
+    "date:inception_lower": "2026-02-14",
+    "date:inception_upper": "2026-02-14",
+    "edtf:cessation": "2026-02-14T05:34:00Z",
+    "edtf:inception": "2026-02-14T01:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533243,
     "sfomuseum:base_flight_id": "20260213-D-VOZ-8151",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17310",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139232279"
+    },
     "wof:country": "US",
     "wof:created": 1771085766,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014786321,
     "wof:involves": [
-      102533243,
-      102527513,
       1159285413,
       1947304515,
-      1159285485
+      1159285485,
+      1528104575,
+      102533243,
+      102527513
     ],
-    "wof:lastmodified": 1771085766,
+    "wof:lastmodified": 1771085912,
     "wof:name": "UA2057 (SFO-TPA)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

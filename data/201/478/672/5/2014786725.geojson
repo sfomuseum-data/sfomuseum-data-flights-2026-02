@@ -2,10 +2,12 @@
   "id": 2014786725,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-14",
+    "date:cessation_upper": "2026-02-14",
     "date:inception_lower": "2026-02-13",
     "date:inception_upper": "2026-02-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-13",
+    "edtf:cessation": "2026-02-14T02:16:00Z",
+    "edtf:inception": "2026-02-13T05:35:20-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17285",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "139307423"
+    },
     "wof:country": "US",
     "wof:created": 1771085812,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2014786725,
     "wof:involves": [
+      1528104575,
       102529403,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1771085812,
+    "wof:lastmodified": 1771085903,
     "wof:name": "UA8138 (SFO-PHL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014786271,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-13",
-    "date:inception_upper": "2026-02-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-13",
+    "date:cessation_lower": "2026-02-14",
+    "date:cessation_upper": "2026-02-14",
+    "date:inception_lower": "2026-02-14",
+    "date:inception_upper": "2026-02-14",
+    "edtf:cessation": "2026-02-14T04:15:00Z",
+    "edtf:inception": "2026-02-14T03:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260213-D-CMP-1454",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17315",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139241693"
+    },
     "wof:country": "US",
     "wof:created": 1771085760,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014786271,
     "wof:involves": [
+      1528104575,
       102533795,
       102527513,
       1159285413,
       1947304473,
       1159284211
     ],
-    "wof:lastmodified": 1771085760,
+    "wof:lastmodified": 1771085912,
     "wof:name": "UA1800 (SFO-LAX)",
     "wof:parent_id": 1947304473,
     "wof:placetype": "custom",

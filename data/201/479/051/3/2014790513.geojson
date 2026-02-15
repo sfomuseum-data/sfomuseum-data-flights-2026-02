@@ -2,10 +2,12 @@
   "id": 2014790513,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-14",
+    "date:cessation_upper": "2026-02-14",
     "date:inception_lower": "2026-02-14",
     "date:inception_upper": "2026-02-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-14",
+    "edtf:cessation": "2026-02-14T08:16:37-08:00",
+    "edtf:inception": "2026-02-14T19:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260214-A-ACA-3519",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139389084",
+      "swim:gufi": "KO8231377f"
+    },
     "wof:country": "US",
     "wof:created": 1771171676,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014790513,
     "wof:involves": [
+      1528104577,
       102527513,
       102533997,
       1159285413,
       1947304527,
       1159283597
     ],
-    "wof:lastmodified": 1771171676,
+    "wof:lastmodified": 1771172182,
     "wof:name": "UA650 (HNL-SFO)",
     "wof:parent_id": 1947304527,
     "wof:placetype": "custom",

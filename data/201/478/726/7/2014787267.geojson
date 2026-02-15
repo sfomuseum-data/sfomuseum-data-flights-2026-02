@@ -2,10 +2,12 @@
   "id": 2014787267,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-14",
+    "date:cessation_upper": "2026-02-14",
     "date:inception_lower": "2026-02-14",
     "date:inception_upper": "2026-02-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-14",
+    "edtf:cessation": "2026-02-14T23:35:56Z",
+    "edtf:inception": "2026-02-14T21:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "CSN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260214-A-CSN-1642",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N801NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139400681",
+      "swim:gufi": "KA741107Qt"
+    },
     "wof:country": "US",
     "wof:created": 1771171274,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014787267,
     "wof:involves": [
+      1159289871,
       102527513,
       102526751,
       1159283849,
       1947304277,
       1159284165
     ],
-    "wof:lastmodified": 1771171274,
+    "wof:lastmodified": 1771172177,
     "wof:name": "AA2846 (PHX-SFO)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",

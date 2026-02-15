@@ -2,10 +2,12 @@
   "id": 2014792609,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-15",
+    "date:cessation_upper": "2026-02-15",
     "date:inception_lower": "2026-02-14",
     "date:inception_upper": "2026-02-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-14",
+    "edtf:cessation": "2026-02-15T01:09:00Z",
+    "edtf:inception": "2026-02-14T06:13:40-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20260214-D-KAL-3278",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N305DU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139402488",
+      "swim:gufi": "KO760817zo"
+    },
     "wof:country": "US",
     "wof:created": 1771171918,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304679,
-      1159284625
+      1159284625,
+      1813375783
     ],
-    "wof:lastmodified": 1771171918,
+    "wof:lastmodified": 1771172195,
     "wof:name": "DL381 (SFO-AUS)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014790313,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-14",
+    "date:cessation_upper": "2026-02-14",
     "date:inception_lower": "2026-02-14",
     "date:inception_upper": "2026-02-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-14",
+    "edtf:cessation": "2026-02-14T16:23:00Z",
+    "edtf:inception": "2026-02-14T15:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879083,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N466UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "139411079",
+      "swim:gufi": "KL457427Z6"
+    },
     "wof:country": "US",
     "wof:created": 1771171651,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2014790313,
     "wof:involves": [
+      1159292085,
       102527513,
       1746879083,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1771171651,
+    "wof:lastmodified": 1771172180,
     "wof:name": "UA3921 (BUR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

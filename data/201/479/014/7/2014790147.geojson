@@ -2,10 +2,12 @@
   "id": 2014790147,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-14",
+    "date:cessation_upper": "2026-02-14",
     "date:inception_lower": "2026-02-14",
     "date:inception_upper": "2026-02-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-14",
+    "edtf:cessation": "2026-02-14T23:46:00Z",
+    "edtf:inception": "2026-02-14T11:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -55.2970675,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260214-A-ACA-4497",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139344673",
+      "swim:gufi": "KU741607Nu"
+    },
     "wof:country": "US",
     "wof:created": 1771171632,
     "wof:geomhash": "eba9741d16611c9af3d962416d546de7",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 2014790147,
     "wof:involves": [
+      1159289985,
       102527513,
       102549067,
       1159285413,
       1947304157,
       1159283597
     ],
-    "wof:lastmodified": 1771171632,
+    "wof:lastmodified": 1771172178,
     "wof:name": "UA195 (MUC-SFO)",
     "wof:parent_id": 1947304157,
     "wof:placetype": "custom",

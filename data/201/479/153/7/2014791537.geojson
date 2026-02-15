@@ -2,10 +2,12 @@
   "id": 2014791537,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-14",
-    "date:inception_upper": "2026-02-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-14",
+    "date:cessation_lower": "2026-02-15",
+    "date:cessation_upper": "2026-02-15",
+    "date:inception_lower": "2026-02-15",
+    "date:inception_upper": "2026-02-15",
+    "edtf:cessation": "2026-02-15T12:19:36Z",
+    "edtf:inception": "2026-02-15T02:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2026-02-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.86699,
     "geom:longitude": -52.902404,
     "iata:airline": "AI",
+    "icao:aircraft": "B77W",
     "icao:airline": "AIC",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283649,
     "sfomuseum:arrival_id": 102556267,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "VTALX",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +93,13 @@
     ],
     "wof:id": 2014791537,
     "wof:involves": [
-      102556267,
       102527513,
       1159283649,
-      1947304311
+      1947304311,
+      1159289993,
+      102556267
     ],
-    "wof:lastmodified": 1771171795,
+    "wof:lastmodified": 1771172189,
     "wof:name": "AI180 (SFO-VIE)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",

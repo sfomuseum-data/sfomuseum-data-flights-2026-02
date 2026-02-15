@@ -2,10 +2,12 @@
   "id": 2014794327,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-15",
+    "date:cessation_upper": "2026-02-15",
     "date:inception_lower": "2026-02-14",
     "date:inception_upper": "2026-02-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-14",
+    "edtf:cessation": "2026-02-15T10:36:00Z",
+    "edtf:inception": "2026-02-14T21:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -0.285817999999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102550331,
     "sfomuseum:base_flight_id": "20260214-D-CCA-7210",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2341U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139396071",
+      "swim:gufi": "KO644737lQ"
+    },
     "wof:country": "US",
     "wof:created": 1771172118,
     "wof:geomhash": "014430cde1a85b033fb3b4a447168595",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014794327,
     "wof:involves": [
-      102550331,
       102527513,
       1159285413,
       1947304149,
-      1159283605
+      1159283605,
+      1159289993,
+      102550331
     ],
-    "wof:lastmodified": 1771172118,
+    "wof:lastmodified": 1771172201,
     "wof:name": "UA857 (SFO-PVG)",
     "wof:parent_id": 1947304149,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014794061,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-14",
+    "date:cessation_upper": "2026-02-14",
     "date:inception_lower": "2026-02-14",
     "date:inception_upper": "2026-02-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-14",
+    "edtf:cessation": "2026-02-14T23:25:00Z",
+    "edtf:inception": "2026-02-14T19:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.864041,
     "geom:longitude": -101.15226200000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527849,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N58101",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "139428005",
+      "swim:gufi": "KO600297Ju"
+    },
     "wof:country": "US",
     "wof:created": 1771172087,
     "wof:geomhash": "258ecee7418d054b5d98211d885387d1",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2014794061,
     "wof:involves": [
-      102527849,
-      102527513,
       1159285413,
-      -1
+      1159289939,
+      102527849,
+      102527513
     ],
-    "wof:lastmodified": 1771172087,
+    "wof:lastmodified": 1771172200,
     "wof:name": "UA3864 (SFO-GSO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

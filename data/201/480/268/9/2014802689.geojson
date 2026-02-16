@@ -2,10 +2,12 @@
   "id": 2014802689,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-16",
+    "date:cessation_upper": "2026-02-16",
     "date:inception_lower": "2026-02-15",
     "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "edtf:cessation": "2026-02-16T04:46:11Z",
+    "edtf:inception": "2026-02-15T13:24:05-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N437UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KS042712mO"
+    },
     "wof:country": "US",
     "wof:created": 1771258600,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2014802689,
     "wof:involves": [
+      1159292085,
       102521851,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1771258600,
+    "wof:lastmodified": 1771258692,
     "wof:name": "UA8285 (SFO-AUS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

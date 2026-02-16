@@ -2,10 +2,12 @@
   "id": 2014798605,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-15",
-    "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "date:cessation_lower": "2026-02-16",
+    "date:cessation_upper": "2026-02-16",
+    "date:inception_lower": "2026-02-16",
+    "date:inception_upper": "2026-02-16",
+    "edtf:cessation": "2026-02-15T17:27:57-08:00",
+    "edtf:inception": "2026-02-16T07:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260215-A-AVA-2037",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N818UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139422502"
+    },
     "wof:country": "US",
     "wof:created": 1771258125,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -92,9 +105,10 @@
       102533269,
       1159285413,
       1947304487,
-      1159285749
+      1159285749,
+      1159289407
     ],
-    "wof:lastmodified": 1771258125,
+    "wof:lastmodified": 1771258699,
     "wof:name": "UA737 (SEA-SFO)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",

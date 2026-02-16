@@ -2,10 +2,12 @@
   "id": 2014797805,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-15",
-    "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "date:cessation_lower": "2026-02-16",
+    "date:cessation_upper": "2026-02-16",
+    "date:inception_lower": "2026-02-16",
+    "date:inception_upper": "2026-02-16",
+    "edtf:cessation": "2026-02-15T17:16:39-08:00",
+    "edtf:inception": "2026-02-16T01:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-02-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532047,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8523W",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139480703"
+    },
     "wof:country": "US",
     "wof:created": 1771258029,
     "wof:geomhash": "10c01f207ef95eecc919066d165ec5eb",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2014797805,
     "wof:involves": [
+      1528104575,
       102527513,
       102532047,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1771258029,
+    "wof:lastmodified": 1771258690,
     "wof:name": "WN138 (BWI-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

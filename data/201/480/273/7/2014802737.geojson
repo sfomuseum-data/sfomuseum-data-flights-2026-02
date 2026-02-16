@@ -2,10 +2,12 @@
   "id": 2014802737,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-15",
-    "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "date:cessation_lower": "2026-02-16",
+    "date:cessation_upper": "2026-02-16",
+    "date:inception_lower": "2026-02-16",
+    "date:inception_upper": "2026-02-16",
+    "edtf:cessation": "2026-02-16T21:14:00Z",
+    "edtf:inception": "2026-02-15T16:04:53-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 15.374977500000007,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102557775,
     "sfomuseum:base_flight_id": "20260215-D-AVA-2017",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N77019",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139425717",
+      "swim:gufi": "KO116282Yw"
+    },
     "wof:country": "US",
     "wof:created": 1771258605,
     "wof:geomhash": "2816398c66be3da27e7024f224ecf0ab",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014802737,
     "wof:involves": [
-      102557775,
       102527513,
       1159285413,
       1947304159,
-      1159285749
+      1159285749,
+      1159289985,
+      102557775
     ],
-    "wof:lastmodified": 1771258605,
+    "wof:lastmodified": 1771258692,
     "wof:name": "UA96 (SFO-BNE)",
     "wof:parent_id": 1947304159,
     "wof:placetype": "custom",

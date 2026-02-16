@@ -2,10 +2,12 @@
   "id": 2014801779,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-15",
+    "date:cessation_upper": "2026-02-15",
     "date:inception_lower": "2026-02-15",
     "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "edtf:cessation": "2026-02-15T23:09:00Z",
+    "edtf:inception": "2026-02-15T22:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2026-02-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.669650000000004,
     "geom:longitude": -122.2917035,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102531041,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N826SY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139538306"
+    },
     "wof:country": "US",
     "wof:created": 1771258494,
     "wof:geomhash": "8933d78fb39ee159acf7eb0738f97ef5",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 2014801779,
     "wof:involves": [
-      102531041,
       102527513,
       1159285227,
-      1947304281
+      1947304281,
+      1159289871,
+      102531041
     ],
-    "wof:lastmodified": 1771258494,
+    "wof:lastmodified": 1771258677,
     "wof:name": "SY8674 (SFO-OAK)",
     "wof:parent_id": 1947304281,
     "wof:placetype": "custom",

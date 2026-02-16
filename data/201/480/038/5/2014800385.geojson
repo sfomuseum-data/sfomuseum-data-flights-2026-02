@@ -2,10 +2,12 @@
   "id": 2014800385,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-15",
+    "date:cessation_upper": "2026-02-15",
     "date:inception_lower": "2026-02-15",
     "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "edtf:cessation": "2026-02-15T23:28:00Z",
+    "edtf:inception": "2026-02-15T20:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:base_flight_id": "20260215-D-AAL-7650",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N526AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139456407",
+      "swim:gufi": "KO666951by"
+    },
     "wof:country": "US",
     "wof:created": 1771258332,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014800385,
     "wof:involves": [
+      1947304387,
+      1159283849,
+      1159289871,
       102536481,
       102527513,
-      1159283813,
-      1947304387,
-      1159283849
+      1159283813
     ],
-    "wof:lastmodified": 1771258332,
+    "wof:lastmodified": 1771258667,
     "wof:name": "AS689 (SFO-PVR)",
     "wof:parent_id": 1947304387,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014802383,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-15",
-    "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "date:cessation_lower": "2026-02-16",
+    "date:cessation_upper": "2026-02-16",
+    "date:inception_lower": "2026-02-16",
+    "date:inception_upper": "2026-02-16",
+    "edtf:cessation": "2026-02-16T01:34:00Z",
+    "edtf:inception": "2026-02-16T00:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:base_flight_id": "20260215-D-ACA-4014",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139412293"
+    },
     "wof:country": "US",
     "wof:created": 1771258564,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2014802383,
     "wof:involves": [
+      1947304603,
+      1159283597,
+      1159292085,
       102533575,
       102527513,
-      1159285413,
-      1947304603,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1771258564,
+    "wof:lastmodified": 1771258686,
     "wof:name": "UA2692 (SFO-ONT)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

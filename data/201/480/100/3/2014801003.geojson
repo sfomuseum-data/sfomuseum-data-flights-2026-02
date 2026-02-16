@@ -2,10 +2,12 @@
   "id": 2014801003,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-15",
+    "date:cessation_upper": "2026-02-15",
     "date:inception_lower": "2026-02-15",
     "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "edtf:cessation": "2026-02-15T19:07:58Z",
+    "edtf:inception": "2026-02-15T17:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2026-02-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N233FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139448943",
+      "swim:gufi": "KO570131lx"
+    },
     "wof:country": "US",
     "wof:created": 1771258404,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -86,9 +99,10 @@
       102531189,
       102527513,
       1159284401,
-      1947304091
+      1947304091,
+      1159292085
     ],
-    "wof:lastmodified": 1771258404,
+    "wof:lastmodified": 1771258672,
     "wof:name": "F93440 (SFO-DEN)",
     "wof:parent_id": 1947304091,
     "wof:placetype": "custom",

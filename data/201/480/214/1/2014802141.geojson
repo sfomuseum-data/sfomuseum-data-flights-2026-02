@@ -2,10 +2,12 @@
   "id": 2014802141,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-15",
+    "date:cessation_upper": "2026-02-15",
     "date:inception_lower": "2026-02-15",
     "date:inception_upper": "2026-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-15",
+    "edtf:cessation": "2026-02-15T02:35:24Z",
+    "edtf:inception": "2026-02-15T01:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20260215-D-ACA-4192",
@@ -53,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139415676",
+      "swim:gufi": "KO009341sa"
+    },
     "wof:country": "US",
     "wof:created": 1771258536,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 2014802141,
     "wof:involves": [
-      102528997,
-      102527513,
       1159285413,
       1947304483,
-      1159283597
+      1159283597,
+      1377564285,
+      102528997,
+      102527513
     ],
-    "wof:lastmodified": 1771258536,
+    "wof:lastmodified": 1771258680,
     "wof:name": "UA1434 (SFO-SAN)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",

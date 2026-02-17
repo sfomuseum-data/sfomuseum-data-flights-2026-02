@@ -2,10 +2,12 @@
   "id": 2014805081,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-16",
+    "date:cessation_upper": "2026-02-16",
     "date:inception_lower": "2026-02-16",
     "date:inception_upper": "2026-02-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-16",
+    "edtf:cessation": "2026-02-16T13:39:39-08:00",
+    "edtf:inception": "2026-02-16T23:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260216-A-ANZ-4703",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGEPF",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139544849"
+    },
     "wof:country": "US",
     "wof:created": 1771344162,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014805081,
     "wof:involves": [
-      102527513,
       102554351,
       1159283597,
       1947304279,
-      1159283697
+      1159283697,
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1771344162,
+    "wof:lastmodified": 1771345100,
     "wof:name": "AC761 (YUL-SFO)",
     "wof:parent_id": 1947304279,
     "wof:placetype": "custom",

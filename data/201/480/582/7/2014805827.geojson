@@ -2,10 +2,12 @@
   "id": 2014805827,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-16",
-    "date:inception_upper": "2026-02-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-16",
+    "date:cessation_lower": "2026-02-17",
+    "date:cessation_upper": "2026-02-17",
+    "date:inception_lower": "2026-02-17",
+    "date:inception_upper": "2026-02-17",
+    "edtf:cessation": "2026-02-16T17:41:32-08:00",
+    "edtf:inception": "2026-02-17T04:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.859366,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260216-A-HAL-7791",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N564AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139490723",
+      "swim:gufi": "KO296083FO"
+    },
     "wof:country": "US",
     "wof:created": 1771344254,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014805827,
     "wof:involves": [
+      1159289871,
       102527513,
       102528943,
       1159283813,
       1947304293,
       1159284489
     ],
-    "wof:lastmodified": 1771344254,
+    "wof:lastmodified": 1771345104,
     "wof:name": "AS791 (LIH-SFO)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",

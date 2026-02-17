@@ -2,10 +2,12 @@
   "id": 2014809095,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-17",
+    "date:cessation_upper": "2026-02-17",
     "date:inception_lower": "2026-02-16",
     "date:inception_upper": "2026-02-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-16",
+    "edtf:cessation": "2026-02-17T04:00:00Z",
+    "edtf:inception": "2026-02-16T10:11:22-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20260216-D-AVA-6904",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGMZR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139487668",
+      "swim:gufi": "KO852152gE"
+    },
     "wof:country": "US",
     "wof:created": 1771344683,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -92,9 +105,10 @@
       102527513,
       1159283597,
       1947304627,
-      1159285749
+      1159285749,
+      1813375783
     ],
-    "wof:lastmodified": 1771344683,
+    "wof:lastmodified": 1771345123,
     "wof:name": "AC571 (SFO-YVR)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014807667,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-16",
+    "date:cessation_upper": "2026-02-16",
     "date:inception_lower": "2026-02-16",
     "date:inception_upper": "2026-02-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-16",
+    "edtf:cessation": "2026-02-16T18:25:00Z",
+    "edtf:inception": "2026-02-16T04:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 8.095782500000006,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "icao:base_airline": "SWR",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260216-A-SWR-3095",
@@ -53,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139493594",
+      "swim:gufi": "KO610462g8"
+    },
     "wof:country": "US",
     "wof:created": 1771344514,
     "wof:geomhash": "3be77137a5fd12a881e37319f2dcc087",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 2014807667,
     "wof:involves": [
+      1159286475,
+      1159293215,
       102527513,
       102557785,
       1159285413,
-      1947304153,
-      1159286475
+      1947304153
     ],
-    "wof:lastmodified": 1771344514,
+    "wof:lastmodified": 1771345117,
     "wof:name": "UA208 (ADL-SFO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

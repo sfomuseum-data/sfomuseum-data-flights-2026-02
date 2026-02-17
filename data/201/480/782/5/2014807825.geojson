@@ -2,10 +2,12 @@
   "id": 2014807825,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-16",
+    "date:cessation_upper": "2026-02-16",
     "date:inception_lower": "2026-02-16",
     "date:inception_upper": "2026-02-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-16",
+    "edtf:cessation": "2026-02-16T05:24:00-08:00",
+    "edtf:inception": "2026-02-16T20:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530559,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N442UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139563360",
+      "swim:gufi": "KO690952iy"
+    },
     "wof:country": "US",
     "wof:created": 1771344533,
     "wof:geomhash": "f5805f1be1c56ce2a2965880e252c65f",
@@ -86,9 +100,10 @@
       102527513,
       102530559,
       1159285413,
-      1947304523
+      1947304523,
+      1159292085
     ],
-    "wof:lastmodified": 1771344533,
+    "wof:lastmodified": 1771345118,
     "wof:name": "UA3926 (SMF-SFO)",
     "wof:parent_id": 1947304523,
     "wof:placetype": "custom",

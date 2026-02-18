@@ -2,10 +2,12 @@
   "id": 2014813623,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-17",
+    "date:cessation_upper": "2026-02-17",
     "date:inception_lower": "2026-02-17",
     "date:inception_upper": "2026-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-17",
+    "edtf:cessation": "2026-02-17T23:26:43Z",
+    "edtf:inception": "2026-02-17T14:56:01Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NH",
     "flysfo:base_airline": "",
@@ -39,6 +41,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +59,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139577927"
+    },
     "wof:country": "US",
     "wof:created": 1771430563,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -94,7 +103,7 @@
       1947304153,
       1159285413
     ],
-    "wof:lastmodified": 1771430563,
+    "wof:lastmodified": 1771431384,
     "wof:name": "NH108 (HND-SFO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

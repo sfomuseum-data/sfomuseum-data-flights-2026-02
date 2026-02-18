@@ -2,10 +2,12 @@
   "id": 2014819673,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-17",
-    "date:inception_upper": "2026-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-17",
+    "date:cessation_lower": "2026-02-18",
+    "date:cessation_upper": "2026-02-18",
+    "date:inception_lower": "2026-02-18",
+    "date:inception_upper": "2026-02-18",
+    "edtf:cessation": "2026-02-18T01:09:22Z",
+    "edtf:inception": "2026-02-18T00:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.0998015,
     "geom:longitude": -119.87272250000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530801,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N221UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139615073",
+      "swim:gufi": "KO744583gu"
+    },
     "wof:country": "US",
     "wof:created": 1771431281,
     "wof:geomhash": "40a575d271046e5423fe379346e0e87e",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2014819673,
     "wof:involves": [
+      1159289985,
       102530801,
       102527513,
       1159285413,
       1947304475
     ],
-    "wof:lastmodified": 1771431281,
+    "wof:lastmodified": 1771431382,
     "wof:name": "UA4212 (SFO-VCV)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

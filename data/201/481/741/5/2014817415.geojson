@@ -2,10 +2,12 @@
   "id": 2014817415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-18",
+    "date:cessation_upper": "2026-02-18",
     "date:inception_lower": "2026-02-17",
     "date:inception_upper": "2026-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-17",
+    "edtf:cessation": "2026-02-18T16:13:43Z",
+    "edtf:inception": "2026-02-17T12:36:43-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NZ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 26.208867500000004,
     "iata:airline": "NZ",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "ANZ",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159283697,
     "sfomuseum:arrival_id": 102552389,
     "sfomuseum:base_flight_id": "20260217-D-ACA-6102",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "ZKNZE",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2014817415,
     "wof:involves": [
-      102552389,
       102527513,
       1159283697,
       1947304131,
-      1159283597
+      1159283597,
+      1159293215,
+      102552389
     ],
-    "wof:lastmodified": 1771431016,
+    "wof:lastmodified": 1771431377,
     "wof:name": "NZ7 (SFO-AKL)",
     "wof:parent_id": 1947304131,
     "wof:placetype": "custom",

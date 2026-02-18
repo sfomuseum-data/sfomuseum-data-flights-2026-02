@@ -2,10 +2,12 @@
   "id": 2014814247,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-17",
-    "date:inception_upper": "2026-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-17",
+    "date:cessation_lower": "2026-02-18",
+    "date:cessation_upper": "2026-02-18",
+    "date:inception_lower": "2026-02-18",
+    "date:inception_upper": "2026-02-18",
+    "edtf:cessation": "2026-02-18T04:33:22Z",
+    "edtf:inception": "2026-02-18T04:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-02-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.669650000000004,
     "geom:longitude": -122.2917035,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531041,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N716AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO085074wD"
+    },
     "wof:country": "US",
     "wof:created": 1771430639,
     "wof:geomhash": "ef262e0da13c3e8dd354e2b42ae8d539",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 2014814247,
     "wof:involves": [
-      102527513,
-      102531041,
       1159283813,
-      1947304267
+      1947304267,
+      1528104577,
+      102527513,
+      102531041
     ],
-    "wof:lastmodified": 1771430639,
+    "wof:lastmodified": 1771431386,
     "wof:name": "AS9719 (OAK-SFO)",
     "wof:parent_id": 1947304267,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014814667,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-17",
-    "date:inception_upper": "2026-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-17",
+    "date:cessation_lower": "2026-02-17",
+    "date:cessation_upper": "2026-02-17",
+    "date:inception_lower": "2026-02-18",
+    "date:inception_upper": "2026-02-18",
+    "edtf:cessation": "2026-02-17T12:37:08-08:00",
+    "edtf:inception": "2026-02-18T00:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260217-A-KLM-7211",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N836DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KP858613WC"
+    },
     "wof:country": "US",
     "wof:created": 1771430690,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014814667,
     "wof:involves": [
+      1947304667,
+      1159284613,
+      1377564285,
       102527513,
       102531131,
-      1159284261,
-      1947304667,
-      1159284613
+      1159284261
     ],
-    "wof:lastmodified": 1771430690,
+    "wof:lastmodified": 1771431370,
     "wof:name": "DL756 (MSP-SFO)",
     "wof:parent_id": 1947304667,
     "wof:placetype": "custom",

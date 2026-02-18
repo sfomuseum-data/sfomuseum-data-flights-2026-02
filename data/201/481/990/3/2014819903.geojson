@@ -2,10 +2,12 @@
   "id": 2014819903,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-18",
+    "date:cessation_upper": "2026-02-18",
     "date:inception_lower": "2026-02-17",
     "date:inception_upper": "2026-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-17",
+    "edtf:cessation": "2026-02-18T03:21:00Z",
+    "edtf:inception": "2026-02-17T10:26:24-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N431UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO021144Q0"
+    },
     "wof:country": "US",
     "wof:created": 1771431308,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2014819903,
     "wof:involves": [
-      102533575,
       102527513,
       1159285413,
-      -1
+      1159292085,
+      102533575
     ],
-    "wof:lastmodified": 1771431308,
+    "wof:lastmodified": 1771431383,
     "wof:name": "UA8192 (SFO-ONT)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

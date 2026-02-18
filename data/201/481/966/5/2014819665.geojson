@@ -2,10 +2,12 @@
   "id": 2014819665,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-18",
+    "date:cessation_upper": "2026-02-18",
     "date:inception_lower": "2026-02-17",
     "date:inception_upper": "2026-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-17",
+    "edtf:cessation": "2026-02-18T08:20:27Z",
+    "edtf:inception": "2026-02-17T18:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.0794145,
     "geom:longitude": -2.117622499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102550865,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2136U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139584140",
+      "swim:gufi": "KO4768733j"
+    },
     "wof:country": "US",
     "wof:created": 1771431279,
     "wof:geomhash": "325a27079583eb22ad4e829d7b21e0b3",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2014819665,
     "wof:involves": [
+      1159289993,
       102550865,
       102527513,
       1159285413,
       1947304097
     ],
-    "wof:lastmodified": 1771431279,
+    "wof:lastmodified": 1771431382,
     "wof:name": "UA3891 (SFO-XMN)",
     "wof:parent_id": 1947304097,
     "wof:placetype": "custom",

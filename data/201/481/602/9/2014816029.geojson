@@ -2,10 +2,12 @@
   "id": 2014816029,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-17",
-    "date:inception_upper": "2026-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-17",
+    "date:cessation_lower": "2026-02-17",
+    "date:cessation_upper": "2026-02-17",
+    "date:inception_lower": "2026-02-18",
+    "date:inception_upper": "2026-02-18",
+    "edtf:cessation": "2026-02-17T09:07:32-08:00",
+    "edtf:inception": "2026-02-18T00:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260217-A-ANZ-9280",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N438UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139615626",
+      "swim:gufi": "KL813243U9"
+    },
     "wof:country": "US",
     "wof:created": 1771430853,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +106,10 @@
       102533795,
       1159285413,
       1947304617,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1771430853,
+    "wof:lastmodified": 1771431373,
     "wof:name": "UA2692 (LAX-SFO)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

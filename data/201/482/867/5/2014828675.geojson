@@ -2,10 +2,12 @@
   "id": 2014828675,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-18",
-    "date:inception_upper": "2026-02-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-18",
+    "date:cessation_lower": "2026-02-19",
+    "date:cessation_upper": "2026-02-19",
+    "date:inception_lower": "2026-02-19",
+    "date:inception_upper": "2026-02-19",
+    "edtf:cessation": "2026-02-19T21:37:01Z",
+    "edtf:inception": "2026-02-19T08:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 25.086782500000005,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102552387,
     "sfomuseum:base_flight_id": "20260218-D-DLH-8974",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27908",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO240535L9"
+    },
     "wof:country": "US",
     "wof:created": 1771517742,
     "wof:geomhash": "18a7207a2c28ed6ae5347520ecb1c4f1",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014828675,
     "wof:involves": [
-      102552387,
       102527513,
       1159285413,
       1947304131,
-      1159286015
+      1159286015,
+      1159289995,
+      102552387
     ],
-    "wof:lastmodified": 1771517742,
+    "wof:lastmodified": 1771517818,
     "wof:name": "UA730 (SFO-CHC)",
     "wof:parent_id": 1947304131,
     "wof:placetype": "custom",

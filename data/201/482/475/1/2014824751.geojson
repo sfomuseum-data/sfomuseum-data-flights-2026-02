@@ -2,10 +2,12 @@
   "id": 2014824751,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-18",
-    "date:inception_upper": "2026-02-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-18",
+    "date:cessation_lower": "2026-02-19",
+    "date:cessation_upper": "2026-02-19",
+    "date:inception_lower": "2026-02-19",
+    "date:inception_upper": "2026-02-19",
+    "edtf:cessation": "2026-02-19T18:16:43Z",
+    "edtf:inception": "2026-02-19T05:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 5.113571499999999,
     "geom:longitude": 15.374977500000007,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102557775,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "139713854",
+      "swim:gufi": "KO832914CP"
+    },
     "wof:country": "US",
     "wof:created": 1771517269,
     "wof:geomhash": "25d9e57260b787ba2ae69f7c2107fd81",
@@ -46,12 +57,12 @@
     ],
     "wof:id": 2014824751,
     "wof:involves": [
+      1159289985,
       102527513,
       102557775,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1771517269,
+    "wof:lastmodified": 1771517830,
     "wof:name": "UA3932 (BNE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

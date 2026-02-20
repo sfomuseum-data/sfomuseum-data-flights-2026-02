@@ -2,10 +2,12 @@
   "id": 2014834991,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-20",
+    "date:cessation_upper": "2026-02-20",
     "date:inception_lower": "2026-02-19",
     "date:inception_upper": "2026-02-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-19",
+    "edtf:cessation": "2026-02-20T01:06:00Z",
+    "edtf:inception": "2026-02-19T04:31:50-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260219-D-KAL-7498",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N177DZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139764318",
+      "swim:gufi": "KO696615XJ"
+    },
     "wof:country": "US",
     "wof:created": 1771604003,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304681,
-      1159284625
+      1159284625,
+      1159289965
     ],
-    "wof:lastmodified": 1771604003,
+    "wof:lastmodified": 1771604315,
     "wof:name": "DL668 (SFO-JFK)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

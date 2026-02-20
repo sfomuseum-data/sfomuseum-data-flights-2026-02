@@ -2,10 +2,12 @@
   "id": 2014832283,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-19",
+    "date:cessation_upper": "2026-02-19",
     "date:inception_lower": "2026-02-19",
     "date:inception_upper": "2026-02-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-19",
+    "edtf:cessation": "2026-02-19T01:24:24-08:00",
+    "edtf:inception": "2026-02-19T15:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260219-A-ACA-4393",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37255",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139738926",
+      "swim:gufi": "KU516765kO"
+    },
     "wof:country": "US",
     "wof:created": 1771603683,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014832283,
     "wof:involves": [
-      102527513,
-      102527363,
       1159285413,
       1947304625,
-      1159283597
+      1159283597,
+      1159289871,
+      102527513,
+      102527363
     ],
-    "wof:lastmodified": 1771603683,
+    "wof:lastmodified": 1771604295,
     "wof:name": "UA1581 (SLC-SFO)",
     "wof:parent_id": 1947304625,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014837993,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-20",
+    "date:cessation_upper": "2026-02-20",
     "date:inception_lower": "2026-02-20",
     "date:inception_upper": "2026-02-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-20",
+    "edtf:cessation": "2026-02-20T23:59:04Z",
+    "edtf:inception": "2026-02-20T09:32:25Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2026-02-20",
@@ -48,6 +50,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139930016"
+    },
     "wof:country": "US",
     "wof:created": 1771689786,
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
@@ -88,7 +93,7 @@
       1159283649,
       1947304265
     ],
-    "wof:lastmodified": 1771689786,
+    "wof:lastmodified": 1771690716,
     "wof:name": "AI179 (DEL-SFO)",
     "wof:parent_id": 1947304265,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014844405,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-21",
+    "date:cessation_upper": "2026-02-21",
     "date:inception_lower": "2026-02-20",
     "date:inception_upper": "2026-02-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-20",
+    "edtf:cessation": "2026-02-21T00:41:07Z",
+    "edtf:inception": "2026-02-20T23:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-02-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8679A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139862459",
+      "swim:gufi": "KO785646Jg"
+    },
     "wof:country": "US",
     "wof:created": 1771690543,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2014844405,
     "wof:involves": [
+      1947304601,
+      1159289871,
       102527209,
       102527513,
-      1159285591,
-      1947304601
+      1159285591
     ],
-    "wof:lastmodified": 1771690543,
+    "wof:lastmodified": 1771690738,
     "wof:name": "WN384 (SFO-LAS)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

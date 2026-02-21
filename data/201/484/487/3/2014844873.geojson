@@ -2,10 +2,12 @@
   "id": 2014844873,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-21",
+    "date:cessation_upper": "2026-02-21",
     "date:inception_lower": "2026-02-20",
     "date:inception_upper": "2026-02-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-20",
+    "edtf:cessation": "2026-02-21T01:35:00Z",
+    "edtf:inception": "2026-02-20T21:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.103286,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534019,
     "sfomuseum:base_flight_id": "20260220-D-ANZ-9040",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N87512",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139854082",
+      "swim:gufi": "KO744236ZF"
+    },
     "wof:country": "US",
     "wof:created": 1771690598,
     "wof:geomhash": "f65caf98d316e6ee4a43fdc3ee688d07",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014844873,
     "wof:involves": [
-      102534019,
-      102527513,
       1159285413,
       1947304527,
-      1159283697
+      1159283697,
+      1159289871,
+      102534019,
+      102527513
     ],
-    "wof:lastmodified": 1771690598,
+    "wof:lastmodified": 1771690730,
     "wof:name": "UA2275 (SFO-CLE)",
     "wof:parent_id": 1947304527,
     "wof:placetype": "custom",

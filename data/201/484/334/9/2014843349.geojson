@@ -2,10 +2,12 @@
   "id": 2014843349,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-21",
+    "date:cessation_upper": "2026-02-21",
     "date:inception_lower": "2026-02-20",
     "date:inception_upper": "2026-02-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-20",
+    "edtf:cessation": "2026-02-21T02:05:59Z",
+    "edtf:inception": "2026-02-20T22:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20260220-D-KAL-3644",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N391DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139845093",
+      "swim:gufi": "KO682816Fm"
+    },
     "wof:country": "US",
     "wof:created": 1771690419,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304679,
-      1159284625
+      1159284625,
+      1159289411
     ],
-    "wof:lastmodified": 1771690419,
+    "wof:lastmodified": 1771690735,
     "wof:name": "DL785 (SFO-ATL)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

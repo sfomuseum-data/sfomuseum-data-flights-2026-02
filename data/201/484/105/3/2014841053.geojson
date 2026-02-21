@@ -2,10 +2,12 @@
   "id": 2014841053,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-20",
+    "date:cessation_upper": "2026-02-20",
     "date:inception_lower": "2026-02-20",
     "date:inception_upper": "2026-02-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-20",
+    "edtf:cessation": "2026-02-20T09:21:40-08:00",
+    "edtf:inception": "2026-02-20T20:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530009,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N76516",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139849705",
+      "swim:gufi": "KH713986kt"
+    },
     "wof:country": "US",
     "wof:created": 1771690151,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2014841053,
     "wof:involves": [
+      1159289871,
       102527513,
       102530009,
       1159285413,
       1947304453
     ],
-    "wof:lastmodified": 1771690151,
+    "wof:lastmodified": 1771690720,
     "wof:name": "UA646 (MSY-SFO)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014840673,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-21",
+    "date:cessation_upper": "2026-02-21",
     "date:inception_lower": "2026-02-20",
     "date:inception_upper": "2026-02-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-20",
+    "edtf:cessation": "2026-02-20T23:15:41-08:00",
+    "edtf:inception": "2026-02-20T14:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.5070865,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260220-A-AVA-2104",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N485UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139813669",
+      "swim:gufi": "KL478116jI"
+    },
     "wof:country": "US",
     "wof:created": 1771690106,
     "wof:geomhash": "2af895d7dc7816e28cbc6da81f2a802b",
@@ -92,9 +106,10 @@
       102527351,
       1159285413,
       1947304529,
-      1159285749
+      1159285749,
+      1159292085
     ],
-    "wof:lastmodified": 1771690106,
+    "wof:lastmodified": 1771690717,
     "wof:name": "UA2018 (SBP-SFO)",
     "wof:parent_id": 1947304529,
     "wof:placetype": "custom",

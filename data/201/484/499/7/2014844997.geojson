@@ -2,10 +2,12 @@
   "id": 2014844997,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-20",
+    "date:cessation_upper": "2026-02-20",
     "date:inception_lower": "2026-02-20",
     "date:inception_upper": "2026-02-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-20",
+    "edtf:cessation": "2026-02-20T21:42:00Z",
+    "edtf:inception": "2026-02-20T21:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530559,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139913382",
+      "swim:gufi": "KO726776Mr"
+    },
     "wof:country": "US",
     "wof:created": 1771690612,
     "wof:geomhash": "5cb31017412a00ced54cc35c2a74371e",
@@ -86,9 +97,10 @@
       102530559,
       102527513,
       1159285413,
-      1947304613
+      1947304613,
+      1159292085
     ],
-    "wof:lastmodified": 1771690612,
+    "wof:lastmodified": 1771690730,
     "wof:name": "UA3937 (SFO-SMF)",
     "wof:parent_id": 1947304613,
     "wof:placetype": "custom",

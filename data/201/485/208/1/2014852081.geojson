@@ -2,10 +2,12 @@
   "id": 2014852081,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-22",
+    "date:cessation_upper": "2026-02-22",
     "date:inception_lower": "2026-02-21",
     "date:inception_upper": "2026-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-21",
+    "edtf:cessation": "2026-02-22T10:21:50Z",
+    "edtf:inception": "2026-02-21T13:57:56-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-02-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102532047,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8322X",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139881869",
+      "swim:gufi": "KO131271Yf"
+    },
     "wof:country": "US",
     "wof:created": 1771776847,
     "wof:geomhash": "ff243e97b2d4ce40e0a4accb79115371",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2014852081,
     "wof:involves": [
-      102532047,
       102527513,
       1159285591,
-      1947304601
+      1947304601,
+      1159289871,
+      102532047
     ],
-    "wof:lastmodified": 1771776847,
+    "wof:lastmodified": 1771777011,
     "wof:name": "WN3497 (SFO-BWI)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014846879,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-22",
+    "date:cessation_upper": "2026-02-22",
     "date:inception_lower": "2026-02-21",
     "date:inception_upper": "2026-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-21",
+    "edtf:cessation": "2026-02-21T21:52:24-08:00",
+    "edtf:inception": "2026-02-21T09:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260221-A-FJI-5807",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N487AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139883944"
+    },
     "wof:country": "US",
     "wof:created": 1771776242,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 2014846879,
     "wof:involves": [
+      1528104577,
       102527513,
       102533997,
       1159283813,
       1947304293,
       1159283717
     ],
-    "wof:lastmodified": 1771776242,
+    "wof:lastmodified": 1771777006,
     "wof:name": "AS288 (HNL-SFO)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",

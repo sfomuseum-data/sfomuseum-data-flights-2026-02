@@ -2,10 +2,12 @@
   "id": 2014848089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-21",
+    "date:cessation_upper": "2026-02-21",
     "date:inception_lower": "2026-02-21",
     "date:inception_upper": "2026-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-21",
+    "edtf:cessation": "2026-02-21T03:13:47-08:00",
+    "edtf:inception": "2026-02-21T18:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2026-02-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N215BZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139982883"
+    },
     "wof:country": "US",
     "wof:created": 1771776384,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 2014848089,
     "wof:involves": [
+      1813375783,
       102527513,
       102533795,
       1763552131,
       1947304667
     ],
-    "wof:lastmodified": 1771776384,
+    "wof:lastmodified": 1771777013,
     "wof:name": "MX8908 (LAX-SFO)",
     "wof:parent_id": 1947304667,
     "wof:placetype": "custom",

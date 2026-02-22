@@ -2,10 +2,12 @@
   "id": 2014846409,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-21",
+    "date:cessation_upper": "2026-02-21",
     "date:inception_lower": "2026-02-21",
     "date:inception_upper": "2026-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-21",
+    "edtf:cessation": "2026-02-21T18:12:35Z",
+    "edtf:inception": "2026-02-21T09:05:26Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NH",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139985564"
+    },
     "wof:country": "US",
     "wof:created": 1771776185,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -94,7 +99,7 @@
       1947304153,
       1159285639
     ],
-    "wof:lastmodified": 1771776185,
+    "wof:lastmodified": 1771777004,
     "wof:name": "NH8 (NRT-SFO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

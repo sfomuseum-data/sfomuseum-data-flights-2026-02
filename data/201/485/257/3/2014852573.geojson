@@ -2,10 +2,12 @@
   "id": 2014852573,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-21",
-    "date:inception_upper": "2026-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-21",
+    "date:cessation_lower": "2026-02-22",
+    "date:cessation_upper": "2026-02-22",
+    "date:inception_lower": "2026-02-22",
+    "date:inception_upper": "2026-02-22",
+    "edtf:cessation": "2026-02-22T01:51:00Z",
+    "edtf:inception": "2026-02-22T00:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:base_flight_id": "20260221-D-ACA-4014",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N434UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139867813",
+      "swim:gufi": "KO842397bJ"
+    },
     "wof:country": "US",
     "wof:created": 1771776903,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014852573,
     "wof:involves": [
-      102533575,
       102527513,
       1159285413,
       1947304603,
-      1159283597
+      1159283597,
+      1159292085,
+      102533575
     ],
-    "wof:lastmodified": 1771776903,
+    "wof:lastmodified": 1771777015,
     "wof:name": "UA2692 (SFO-ONT)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014847969,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-21",
+    "date:cessation_upper": "2026-02-21",
     "date:inception_lower": "2026-02-21",
     "date:inception_upper": "2026-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-21",
+    "edtf:cessation": "2026-02-21T23:02:00Z",
+    "edtf:inception": "2026-02-21T16:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "icao:base_airline": "SIA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260221-A-SIA-1543",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N934JB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "139904647",
+      "swim:gufi": "KN572797sO"
+    },
     "wof:country": "US",
     "wof:created": 1771776370,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014847969,
     "wof:involves": [
-      102527513,
-      102534365,
       1159284583,
       1947304289,
-      1159286259
+      1159286259,
+      1159289411,
+      102527513,
+      102534365
     ],
-    "wof:lastmodified": 1771776370,
+    "wof:lastmodified": 1771777012,
     "wof:name": "B6115 (JFK-SFO)",
     "wof:parent_id": 1947304289,
     "wof:placetype": "custom",

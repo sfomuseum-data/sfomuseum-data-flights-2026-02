@@ -2,10 +2,12 @@
   "id": 2014860539,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-23",
+    "date:cessation_upper": "2026-02-23",
     "date:inception_lower": "2026-02-22",
     "date:inception_upper": "2026-02-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-22",
+    "edtf:cessation": "2026-02-23T08:51:00Z",
+    "edtf:inception": "2026-02-22T15:19:36-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "SWR",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20260222-D-SWR-3347",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N494UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO204102vw"
+    },
     "wof:country": "US",
     "wof:created": 1771863365,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 2014860539,
     "wof:involves": [
-      102533269,
       102527513,
       1159285413,
       1947304603,
-      1159286475
+      1159286475,
+      1159292085,
+      102533269
     ],
-    "wof:lastmodified": 1771863365,
+    "wof:lastmodified": 1771863513,
     "wof:name": "UA1007 (SFO-SEA)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

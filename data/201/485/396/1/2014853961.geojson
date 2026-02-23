@@ -2,10 +2,12 @@
   "id": 2014853961,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-22",
+    "date:cessation_upper": "2026-02-22",
     "date:inception_lower": "2026-02-22",
     "date:inception_upper": "2026-02-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-22",
+    "edtf:cessation": "2026-02-22T22:28:18Z",
+    "edtf:inception": "2026-02-22T08:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2026-02-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.089972,
     "geom:longitude": -22.636412999999997,
     "iata:airline": "AI",
+    "icao:aircraft": "B77W",
     "icao:airline": "AIC",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283649,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555709,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "139958926"
+    },
     "wof:country": "US",
     "wof:created": 1771862587,
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
@@ -46,12 +56,12 @@
     ],
     "wof:id": 2014853961,
     "wof:involves": [
-      102527513,
       102555709,
       1159283649,
-      -1
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1771862587,
+    "wof:lastmodified": 1771863515,
     "wof:name": "AI175 (DEL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

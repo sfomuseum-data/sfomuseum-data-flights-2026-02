@@ -2,10 +2,12 @@
   "id": 2014864895,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-24",
+    "date:cessation_upper": "2026-02-24",
     "date:inception_lower": "2026-02-23",
     "date:inception_upper": "2026-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-23",
+    "edtf:cessation": "2026-02-24T02:09:00Z",
+    "edtf:inception": "2026-02-23T20:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260223-A-ANZ-9125",
@@ -39,7 +43,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "140069518"
+    },
     "wof:country": "US",
     "wof:created": 1771949313,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -51,13 +61,13 @@
     ],
     "wof:id": 2014864895,
     "wof:involves": [
+      1159283697,
+      1159289985,
       102527513,
       102530049,
-      1159285413,
-      -1,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1771949313,
+    "wof:lastmodified": 1771949897,
     "wof:name": "UA2328 (EWR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

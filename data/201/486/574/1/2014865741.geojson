@@ -2,10 +2,12 @@
   "id": 2014865741,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-23",
+    "date:cessation_upper": "2026-02-23",
     "date:inception_lower": "2026-02-23",
     "date:inception_upper": "2026-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-23",
+    "edtf:cessation": "2026-02-23T20:19:00Z",
+    "edtf:inception": "2026-02-23T15:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:base_flight_id": "20260223-D-FIN-4142",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N378SC",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140049751",
+      "swim:gufi": "KO510342eE"
+    },
     "wof:country": "US",
     "wof:created": 1771949412,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014865741,
     "wof:involves": [
+      1528104575,
       102531023,
       102527513,
       1159283849,
       1947304301,
       1159284389
     ],
-    "wof:lastmodified": 1771949412,
+    "wof:lastmodified": 1771949916,
     "wof:name": "AA1746 (SFO-MIA)",
     "wof:parent_id": 1947304301,
     "wof:placetype": "custom",

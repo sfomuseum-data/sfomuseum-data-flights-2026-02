@@ -2,10 +2,12 @@
   "id": 2014863015,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-23",
+    "date:cessation_upper": "2026-02-23",
     "date:inception_lower": "2026-02-23",
     "date:inception_upper": "2026-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-23",
+    "edtf:cessation": "2026-02-23T22:00:12Z",
+    "edtf:inception": "2026-02-23T05:46:15-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-02-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N960AK",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "140141699",
+      "swim:gufi": "KL742902L4"
+    },
     "wof:country": "US",
     "wof:created": 1771949090,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2014863015,
     "wof:involves": [
-      102527513,
-      102536481,
       1159283813,
-      -1
+      1528104577,
+      102527513,
+      102536481
     ],
-    "wof:lastmodified": 1771949090,
+    "wof:lastmodified": 1771949892,
     "wof:name": "AS689 (PVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

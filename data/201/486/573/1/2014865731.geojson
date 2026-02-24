@@ -2,10 +2,12 @@
   "id": 2014865731,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-23",
-    "date:inception_upper": "2026-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-23",
+    "date:cessation_lower": "2026-02-23",
+    "date:cessation_upper": "2026-02-23",
+    "date:inception_lower": "2026-02-24",
+    "date:inception_upper": "2026-02-24",
+    "edtf:cessation": "2026-02-23T13:02:15Z",
+    "edtf:inception": "2026-02-23T16:51:54-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528659,
     "sfomuseum:base_flight_id": "20260223-D-QFA-4339",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N180US",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140033828",
+      "swim:gufi": "KO258552py"
+    },
     "wof:country": "US",
     "wof:created": 1771949411,
     "wof:geomhash": "6d7202e034534315a50103622977ef57",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014865731,
     "wof:involves": [
+      1159285043,
+      1159289411,
       102528659,
       102527513,
       1159283849,
-      1947304291,
-      1159285043
+      1947304291
     ],
-    "wof:lastmodified": 1771949411,
+    "wof:lastmodified": 1771949916,
     "wof:name": "AA1476 (SFO-CLT)",
     "wof:parent_id": 1947304291,
     "wof:placetype": "custom",

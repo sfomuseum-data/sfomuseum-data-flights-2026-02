@@ -2,10 +2,12 @@
   "id": 2014869215,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-23",
+    "date:cessation_upper": "2026-02-23",
     "date:inception_lower": "2026-02-23",
     "date:inception_upper": "2026-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-23",
+    "edtf:cessation": "2026-02-23T23:46:00Z",
+    "edtf:inception": "2026-02-23T19:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20260223-D-ANZ-9102",
@@ -39,7 +43,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "140063241"
+    },
     "wof:country": "US",
     "wof:created": 1771949818,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -51,13 +61,13 @@
     ],
     "wof:id": 2014869215,
     "wof:involves": [
+      1159293215,
       102530049,
       102527513,
       1159285413,
-      -1,
       1159283697
     ],
-    "wof:lastmodified": 1771949818,
+    "wof:lastmodified": 1771949910,
     "wof:name": "UA713 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

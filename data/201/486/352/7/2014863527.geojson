@@ -2,10 +2,12 @@
   "id": 2014863527,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-23",
+    "date:cessation_upper": "2026-02-23",
     "date:inception_lower": "2026-02-23",
     "date:inception_upper": "2026-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-23",
+    "edtf:cessation": "2026-02-23T14:49:54Z",
+    "edtf:inception": "2026-02-23T12:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-02-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N663DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "140039073",
+      "swim:gufi": "KD41461200"
+    },
     "wof:country": "US",
     "wof:created": 1771949151,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2014863527,
     "wof:involves": [
+      1159289939,
       102527513,
       102531189,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1771949151,
+    "wof:lastmodified": 1771949893,
     "wof:name": "DL8838 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

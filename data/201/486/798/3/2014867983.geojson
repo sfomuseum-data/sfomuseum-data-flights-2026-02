@@ -1,0 +1,72 @@
+{
+  "id": 2014867983,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-02-23",
+    "date:inception_upper": "2026-02-23",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-02-23",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "B6",
+    "flysfo:date": "2026-02-23",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "B62116",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-JFK",
+    "flysfo:scheduled_timestamp": 1771878600,
+    "flysfo:timestamp": 1771878600,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-73.787845,40.643286",
+    "geom:latitude": 39.130638000000005,
+    "geom:longitude": -98.07939400000001,
+    "iata:airline": "B6",
+    "icao:airline": "JBU",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284583,
+    "sfomuseum:arrival_id": 102534365,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260223-D-JBU-2116",
+    "sfomuseum:flight_number": [
+      "JBU2116",
+      "B62116"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1771949674,
+    "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2014867983,
+        "flight_id": 2014867983
+      }
+    ],
+    "wof:id": 2014867983,
+    "wof:involves": [
+      102534365,
+      102527513,
+      1159284583,
+      -1
+    ],
+    "wof:lastmodified": 1771949674,
+    "wof:name": "B62116 (SFO-JFK)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -73.787845,
+    40.643286
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-73.787845,40.643286]],"type":"MultiPoint"}
+}

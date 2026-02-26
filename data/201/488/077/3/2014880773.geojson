@@ -2,10 +2,12 @@
   "id": 2014880773,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-25",
+    "date:cessation_upper": "2026-02-25",
     "date:inception_lower": "2026-02-25",
     "date:inception_upper": "2026-02-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-25",
+    "edtf:cessation": "2026-02-25T12:33:32-08:00",
+    "edtf:inception": "2026-02-25T22:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.0754675,
     "geom:longitude": -102.06817749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533509,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27290",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140236284",
+      "swim:gufi": "KR790544Gw"
+    },
     "wof:country": "US",
     "wof:created": 1772122137,
     "wof:geomhash": "155104f8406f893c2c24589be7b12de9",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2014880773,
     "wof:involves": [
-      102527513,
       102533509,
       1159285413,
-      1947304531
+      1947304531,
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1772122137,
+    "wof:lastmodified": 1772122647,
     "wof:name": "UA583 (RSW-SFO)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

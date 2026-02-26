@@ -2,10 +2,12 @@
   "id": 2014880415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-25",
+    "date:cessation_upper": "2026-02-25",
     "date:inception_lower": "2026-02-25",
     "date:inception_upper": "2026-02-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-25",
+    "edtf:cessation": "2026-02-25T23:19:43Z",
+    "edtf:inception": "2026-02-25T21:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260225-A-ACA-4568",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140223178",
+      "swim:gufi": "KS7068541f"
+    },
     "wof:country": "US",
     "wof:created": 1772122093,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 2014880415,
     "wof:involves": [
+      1159292085,
       102527513,
       102555307,
       1159285413,
       1947304603,
       1159283597
     ],
-    "wof:lastmodified": 1772122093,
+    "wof:lastmodified": 1772122644,
     "wof:name": "UA1708 (YVR-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

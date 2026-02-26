@@ -2,10 +2,12 @@
   "id": 2014883579,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-26",
+    "date:cessation_upper": "2026-02-26",
     "date:inception_lower": "2026-02-25",
     "date:inception_upper": "2026-02-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-25",
+    "edtf:cessation": "2026-02-26T20:22:39Z",
+    "edtf:inception": "2026-02-25T15:05:21-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "PR",
     "flysfo:date": "2026-02-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 26.067878999999998,
     "geom:longitude": -0.6778954999999982,
     "iata:airline": "PR",
+    "icao:aircraft": "B77W",
     "icao:airline": "PAL",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285015,
     "sfomuseum:arrival_id": 102553219,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "RPC7783",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -86,9 +96,10 @@
       102553219,
       102527513,
       1159285015,
-      1947304097
+      1947304097,
+      1159289993
     ],
-    "wof:lastmodified": 1772122461,
+    "wof:lastmodified": 1772122661,
     "wof:name": "PR105 (SFO-MNL)",
     "wof:parent_id": 1947304097,
     "wof:placetype": "custom",

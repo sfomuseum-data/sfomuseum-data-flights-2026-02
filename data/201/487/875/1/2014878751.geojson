@@ -2,10 +2,12 @@
   "id": 2014878751,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-25",
+    "date:cessation_upper": "2026-02-25",
     "date:inception_lower": "2026-02-25",
     "date:inception_upper": "2026-02-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-25",
+    "edtf:cessation": "2026-02-25T05:28:33-08:00",
+    "edtf:inception": "2026-02-25T18:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-02-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N551AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140221140",
+      "swim:gufi": "KL724544Zx"
+    },
     "wof:country": "US",
     "wof:created": 1772121885,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2014878751,
     "wof:involves": [
-      102527513,
       102536481,
       1159283813,
-      1947304385
+      1947304385,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1772121885,
+    "wof:lastmodified": 1772122648,
     "wof:name": "AS9233 (PVR-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

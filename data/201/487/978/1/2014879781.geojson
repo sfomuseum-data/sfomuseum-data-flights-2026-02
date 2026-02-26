@@ -2,10 +2,12 @@
   "id": 2014879781,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-25",
+    "date:cessation_upper": "2026-02-25",
     "date:inception_lower": "2026-02-25",
     "date:inception_upper": "2026-02-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-25",
+    "edtf:cessation": "2026-02-25T21:13:57Z",
+    "edtf:inception": "2026-02-25T11:02:12Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "KE",
     "flysfo:date": "2026-02-25",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "140258054"
+    },
     "wof:country": "US",
     "wof:created": 1772122013,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -51,7 +56,7 @@
       1159284625,
       -1
     ],
-    "wof:lastmodified": 1772122013,
+    "wof:lastmodified": 1772122655,
     "wof:name": "KE2951 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

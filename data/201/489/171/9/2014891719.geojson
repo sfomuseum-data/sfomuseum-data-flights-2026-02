@@ -2,10 +2,12 @@
   "id": 2014891719,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-02-26",
-    "date:inception_upper": "2026-02-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-26",
+    "date:cessation_lower": "2026-02-27",
+    "date:cessation_upper": "2026-02-27",
+    "date:inception_lower": "2026-02-27",
+    "date:inception_upper": "2026-02-27",
+    "edtf:cessation": "2026-02-27T02:16:08Z",
+    "edtf:inception": "2026-02-27T00:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:base_flight_id": "20260226-D-QTR-2911",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N164NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140244578",
+      "swim:gufi": "KO840365UF"
+    },
     "wof:country": "US",
     "wof:created": 1772208596,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014891719,
     "wof:involves": [
+      1159289411,
       102526751,
       102527513,
       1159283849,
       1947304317,
       1159286153
     ],
-    "wof:lastmodified": 1772208596,
+    "wof:lastmodified": 1772209078,
     "wof:name": "AA1930 (SFO-PHX)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

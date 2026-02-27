@@ -2,10 +2,12 @@
   "id": 2014890775,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-26",
+    "date:cessation_upper": "2026-02-26",
     "date:inception_lower": "2026-02-26",
     "date:inception_upper": "2026-02-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-26",
+    "edtf:cessation": "2026-02-26T23:24:00Z",
+    "edtf:inception": "2026-02-26T21:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260226-A-ACA-4040",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N494UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140308804",
+      "swim:gufi": "KU723355SS"
+    },
     "wof:country": "US",
     "wof:created": 1772208489,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014890775,
     "wof:involves": [
+      1159283597,
+      1159292085,
       102527513,
       102527363,
       1159285413,
-      1947304609,
-      1159283597
+      1947304609
     ],
-    "wof:lastmodified": 1772208489,
+    "wof:lastmodified": 1772209071,
     "wof:name": "UA1972 (SLC-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

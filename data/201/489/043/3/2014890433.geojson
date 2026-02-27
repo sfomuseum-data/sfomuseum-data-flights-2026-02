@@ -2,10 +2,12 @@
   "id": 2014890433,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-27",
+    "date:cessation_upper": "2026-02-27",
     "date:inception_lower": "2026-02-26",
     "date:inception_upper": "2026-02-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-26",
+    "edtf:cessation": "2026-02-27T01:51:00Z",
+    "edtf:inception": "2026-02-26T21:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-02-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8959Q",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140308045",
+      "swim:gufi": "KM666385wT"
+    },
     "wof:country": "US",
     "wof:created": 1772208449,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2014890433,
     "wof:involves": [
+      1528104575,
       102527513,
       102525035,
       1159285591,
       1947304601
     ],
-    "wof:lastmodified": 1772208449,
+    "wof:lastmodified": 1772209068,
     "wof:name": "WN647 (BNA-SFO)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

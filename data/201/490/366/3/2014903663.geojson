@@ -2,10 +2,12 @@
   "id": 2014903663,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-27",
+    "date:cessation_upper": "2026-02-27",
     "date:inception_lower": "2026-02-27",
     "date:inception_upper": "2026-02-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-27",
+    "edtf:cessation": "2026-02-27T22:05:00Z",
+    "edtf:inception": "2026-02-27T05:11:12-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N20904",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140443105",
+      "swim:gufi": "KO709266Wd"
+    },
     "wof:country": "US",
     "wof:created": 1772295382,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2014903663,
     "wof:involves": [
+      1159289995,
       102533795,
       102527513,
       1159285413,
       1947304475
     ],
-    "wof:lastmodified": 1772295382,
+    "wof:lastmodified": 1772295519,
     "wof:name": "UA3016 (SFO-LAX)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

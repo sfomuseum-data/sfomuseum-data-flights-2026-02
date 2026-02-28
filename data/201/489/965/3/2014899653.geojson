@@ -2,10 +2,12 @@
   "id": 2014899653,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-27",
+    "date:cessation_upper": "2026-02-27",
     "date:inception_lower": "2026-02-27",
     "date:inception_upper": "2026-02-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-27",
+    "edtf:cessation": "2026-02-27T11:47:05-08:00",
+    "edtf:inception": "2026-02-27T23:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260227-A-ANZ-9438",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17346",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140411257",
+      "swim:gufi": "KP822806bT"
+    },
     "wof:country": "US",
     "wof:created": 1772294929,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -92,9 +106,10 @@
       102531131,
       1159285413,
       1947304491,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1772294929,
+    "wof:lastmodified": 1772295519,
     "wof:name": "UA552 (MSP-SFO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2014897287,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-27",
+    "date:cessation_upper": "2026-02-27",
     "date:inception_lower": "2026-02-27",
     "date:inception_upper": "2026-02-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-27",
+    "edtf:cessation": "2026-02-27T12:12:40-08:00",
+    "edtf:inception": "2026-02-27T22:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "CFG",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260227-A-CFG-5020",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N982AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140400598",
+      "swim:gufi": "KN748236EI"
+    },
     "wof:country": "US",
     "wof:created": 1772294658,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014897287,
     "wof:involves": [
-      102527513,
-      102534365,
       1159283813,
       1947304315,
-      1159284193
+      1159284193,
+      1528104577,
+      102527513,
+      102534365
     ],
-    "wof:lastmodified": 1772294658,
+    "wof:lastmodified": 1772295498,
     "wof:name": "AS114 (JFK-SFO)",
     "wof:parent_id": 1947304315,
     "wof:placetype": "custom",

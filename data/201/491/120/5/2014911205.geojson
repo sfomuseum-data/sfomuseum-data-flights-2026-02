@@ -2,10 +2,12 @@
   "id": 2014911205,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-03-01",
+    "date:cessation_upper": "2026-03-01",
     "date:inception_lower": "2026-02-28",
     "date:inception_upper": "2026-02-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-28",
+    "edtf:cessation": "2026-03-01T01:02:15Z",
+    "edtf:inception": "2026-02-28T20:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20260228-D-ANA-7330",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N21108",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140473826",
+      "swim:gufi": "KO663557AE"
+    },
     "wof:country": "US",
     "wof:created": 1772381666,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014911205,
     "wof:involves": [
+      1159289939,
       102530741,
       102527513,
       1159285413,
       1947304491,
       1159283875
     ],
-    "wof:lastmodified": 1772381666,
+    "wof:lastmodified": 1772381774,
     "wof:name": "UA2356 (SFO-BOS)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

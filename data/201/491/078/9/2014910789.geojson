@@ -2,10 +2,12 @@
   "id": 2014910789,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-02-28",
+    "date:cessation_upper": "2026-02-28",
     "date:inception_lower": "2026-02-28",
     "date:inception_upper": "2026-02-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-28",
+    "edtf:cessation": "2026-02-28T23:24:00Z",
+    "edtf:inception": "2026-02-28T04:17:44-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-02-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 1746879059,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8904L",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140477977",
+      "swim:gufi": "KO656557D0"
+    },
     "wof:country": "US",
     "wof:created": 1772381621,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2014910789,
     "wof:involves": [
+      1528104575,
       1746879059,
       102527513,
       1159285591,
       1947304597
     ],
-    "wof:lastmodified": 1772381621,
+    "wof:lastmodified": 1772381771,
     "wof:name": "WN570 (SFO-STL)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

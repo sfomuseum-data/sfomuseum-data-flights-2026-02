@@ -2,10 +2,12 @@
   "id": 2014907531,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-03-01",
+    "date:cessation_upper": "2026-03-01",
     "date:inception_lower": "2026-02-28",
     "date:inception_upper": "2026-02-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-02-28",
+    "edtf:cessation": "2026-03-01T01:14:59Z",
+    "edtf:inception": "2026-02-28T18:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-02-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "140466603",
+      "swim:gufi": "KO549067d4"
+    },
     "wof:country": "US",
     "wof:created": 1772381258,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -86,9 +98,10 @@
       102527513,
       102533997,
       1159285413,
-      1947304525
+      1947304525,
+      1159289871
     ],
-    "wof:lastmodified": 1772381258,
+    "wof:lastmodified": 1772381787,
     "wof:name": "UA3889 (HNL-SFO)",
     "wof:parent_id": 1947304525,
     "wof:placetype": "custom",
